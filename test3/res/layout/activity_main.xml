@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="51dp"
+        android:text="이런 앱을 실행시켜 주신 당신께 감사하며 안녕히 가세요" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="53dp"
+        android:text="이 앱은 쓰레기 이므로 실행시킬 필요가 없었으나 실행시키셨다면 당신은 당신의 귀중한 시간을 이런 쓸모없는 곳에 낭비하고 있다는 점만 알아두셨으면 합니다. 그럼 저기 위에 있는 버튼을 눌러 종료시켜주세요"
+        android:textColor="#ff3300"
+        android:textSize="15sp"
+        tools:context=".MainActivity" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:text="이 앱은 쓰레기야 쓰레기라고" />
+
+</RelativeLayout>
